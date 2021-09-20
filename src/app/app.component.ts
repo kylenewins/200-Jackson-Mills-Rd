@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   @ViewChild('carousel', {static: true}) carousel: NgbCarousel;
 
   title = 'garrets-house';
-  hrefStub = '../assets/img/IMG_0';
+  hrefStub = './assets/img/IMG_0';
   images = []
   
   constructor() {}
