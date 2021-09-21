@@ -21,10 +21,13 @@ position: relative;
     z-index: 10;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1080px) {
  .images{
      width: 100%;
      margin-left: 0;
+     padding-bottom:30%;
+     padding-top:30%;
+     overflow-x: hidden;
  }
 
  #top-bar{
