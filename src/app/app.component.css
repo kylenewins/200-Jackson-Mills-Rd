@@ -13,12 +13,17 @@
 position: relative;
 }
 
+.carousel-caption{
+    top: 5vh !important;
+}
+
 #top-bar{
     position: absolute;
     color: whitesmoke;
     font-size: 125%;
     width:100%;
     z-index: 10;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1080px) {

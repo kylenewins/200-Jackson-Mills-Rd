@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   
   getPics(){
     for(var i = 696; i < 818; i ++){
-      if(i !== 731 && i!==767 && i!==784 && i!==792 && i !== 793 && i !== 700 && i !== 816){
+      if(i !== 731 && i!==767 && i!==784 && i!==792 && i !== 793 && i !== 700 && i !== 816 && i !== 697){
         var imgNum = (i.toString() + ".JPEG")
         var href = this.hrefStub + imgNum;
         this.images.push(href)

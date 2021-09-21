@@ -300,11 +300,11 @@
 <div class="content" role="main">
   <ngb-carousel id="carousel" *ngIf="images" [animation]="false" [interval]="false" [showNavigationIndicators]="false">
     <ng-template *ngFor="let img of images; let i = index" ngbSlide>
+        <div class="carousel-caption">
+            <h7>{{i + 1}} of {{images.length}}</h7>
+          </div>
       <div class="picsum-img-wrapper">
         <img class="images" [src]="img" alt="img">
-      </div>
-      <div class="carousel-caption">
-        <h7>{{i + 1}} of {{images.length}}</h7>
       </div>
     </ng-template>
   </ngb-carousel>
